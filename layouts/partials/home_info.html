@@ -1,0 +1,18 @@
+{{- with site.Params.homeInfoParams }}
+<article class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-label">Publication</p>
+    <h1 class="masthead-title">{{ .Title }}</h1>
+    <p class="masthead-tagline">{{ .Content | markdownify }}</p>
+    {{- with site.Params.SocialIcons }}
+    <div class="masthead-social">
+      {{- range . }}
+      <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">
+        {{- partial "svg.html" . -}}
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</article>
+{{- end }}
