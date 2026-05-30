@@ -20,7 +20,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
   logo = "/safety-mic-logo.png"
   label.text = "Safety Mic"
   label.icon = "/safety-mic-logo.png"
-  label.iconHeight = 40
+  label.iconHeight = 48
 
 [params.homeInfoParams]
   Title = "Safety Mic"
