@@ -1,18 +1,19 @@
 ---
 title: "About Safety Mic 🎙️"
+ShowToc: false
 ---
 
-<div class="about-pub-header">
-  <img src="/safety-mic-logo.png" alt="Safety Mic" class="about-logo">
+<div class="pub-description">
+  <img src="/safety-mic-logo.png" alt="" class="pub-watermark" aria-hidden="true">
+
+  <p>Some conversations in Nigerian workplaces never get started. Not because people do not know something is wrong, but because the cost of saying it out loud feels too high. A worker dies on a construction site and the site moves on by Monday. A regulator signs off on something that should not be signed. An HSE officer takes the envelope and tells himself it is just this once. And the silence around all of it becomes its own kind of policy.</p>
+
+  <p>Safety Mic exists to break that silence.</p>
+
+  <p>This publication is for everyone who has a stake in what happens to Nigerian workers: HSE professionals navigating the pressure to compromise, managers who want to build genuine safety culture rather than perform it, employers who understand that compliance and integrity are not the same thing, and the regulators and policymakers whose decisions ripple across thousands of worksites. The conversations here are not sanitised. They are grounded in the reality of what this industry looks like from the inside, the pressures, the failures, the rare moments of genuine progress, and the structural changes that are long overdue.</p>
+
+  <p>The goal is not criticism for its own sake. It is accountability in the service of something worth caring about: the idea that a person should be able to go to work and come home.</p>
 </div>
-
-Some conversations in Nigerian workplaces never get started. Not because people do not know something is wrong, but because the cost of saying it out loud feels too high. A worker dies on a construction site and the site moves on by Monday. A regulator signs off on something that should not be signed. An HSE officer takes the envelope and tells himself it is just this once. And the silence around all of it becomes its own kind of policy.
-
-Safety Mic exists to break that silence.
-
-This publication is for everyone who has a stake in what happens to Nigerian workers: HSE professionals navigating the pressure to compromise, managers who want to build genuine safety culture rather than perform it, employers who understand that compliance and integrity are not the same thing, and the regulators and policymakers whose decisions ripple across thousands of worksites. The conversations here are not sanitised. They are grounded in the reality of what this industry looks like from the inside, the pressures, the failures, the rare moments of genuine progress, and the structural changes that are long overdue.
-
-The goal is not criticism for its own sake. It is accountability in the service of something worth caring about: the idea that a person should be able to go to work and come home.
 
 ---
 
