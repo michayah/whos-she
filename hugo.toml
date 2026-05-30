@@ -36,7 +36,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
 
 [[params.socialIcons]]
   name = "substack"
-  url = "https://substack.com/@michayah"
+  url = "https://substack.com/@michayahiniovosa"
 
 [menu]
   [[menu.main]]
