@@ -1,0 +1,39 @@
+baseURL = "https://michayah.github.io/"
+languageCode = "en-gb"
+title = "Safety Mic"
+theme = "PaperMod"
+
+outputs.home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "HSE thinking for the Nigerian workplace."
+  ShowReadingTime = true
+  ShowToc = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "Safety Mic"
+  Content = "HSE thinking for the Nigerian workplace. Real standards, real culture, real stakes."
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/michayah-iniovosa"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
