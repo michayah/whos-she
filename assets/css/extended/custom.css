@@ -1,3 +1,7 @@
+/* ================================================================
+   SAFETY MIC — CUSTOM THEME
+   ================================================================ */
+
 /* ── Colour palette ── */
 :root {
   --charcoal: #1a1a1a;
@@ -9,31 +13,249 @@
   --light-bg: #F5F0E8;
   --rule-grey: #cccccc;
   --track-bg: #e8e8e8;
-}
 
-/* ── Override PaperMod accent colour ── */
-:root {
+  /* PaperMod overrides */
   --primary: var(--amber);
   --theme: #faf8f4;
 }
 
-/* ── Site-wide typography ── */
+.dark {
+  --charcoal: #f0ece4;
+  --soft-black: #d4d0cb;
+  --mid-grey: #9a9590;
+  --light-bg: rgba(200, 150, 62, 0.08);
+  --rule-grey: #3a3a3a;
+  --track-bg: #333333;
+}
+
+
+/* ================================================================
+   GLOBAL TYPOGRAPHY
+   ================================================================ */
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1, h2, h3, h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  color: var(--amber);
+}
+
+a:hover {
+  color: var(--amber-light);
+}
+
+
+/* ================================================================
+   SITE HEADER
+   ================================================================ */
+
+header.header {
+  border-bottom: 2px solid var(--amber);
+  background: var(--theme);
+}
+
+.logo a,
+.logo span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--charcoal);
+}
+
+.dark .logo a,
+.dark .logo span {
+  color: #f0ece4;
+}
+
+.logo a:hover {
+  color: var(--amber);
+}
+
+.menu a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#theme-toggle svg {
+  color: var(--amber);
+}
+
+
+/* ================================================================
+   HOMEPAGE — MASTHEAD BLOCK
+   ================================================================ */
+
+.home-info-block,
+.homeInfoContent {
+  border-left: 4px solid var(--amber);
+  padding: 2em 2em 2em 2.2em;
+  margin-bottom: 3em;
+  background: var(--light-bg);
+}
+
+.dark .homeInfoContent,
+.dark .home-info-block {
+  background: rgba(200, 150, 62, 0.06);
+}
+
+.homeInfoContent .title {
+  font-size: 1.9rem;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: var(--charcoal);
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+.dark .homeInfoContent .title {
+  color: #f0ece4;
+}
+
+.homeInfoContent p {
+  font-size: 1rem;
+  color: var(--mid-grey);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.homeInfoContent .social-icons a svg {
+  color: var(--amber);
+}
+
+
+/* ================================================================
+   HOMEPAGE — ARTICLE CARDS
+   ================================================================ */
+
+.post-entry {
+  border: none;
+  border-bottom: 1px solid var(--rule-grey);
+  border-radius: 0;
+  padding: 1.8em 0;
+  margin: 0;
+  transition: background 0.15s ease;
+}
+
+.post-entry:first-of-type {
+  border-top: 1px solid var(--rule-grey);
+}
+
+.post-entry:hover {
+  background: var(--light-bg);
+  padding-left: 1em;
+  transition: padding 0.15s ease, background 0.15s ease;
+}
+
+.dark .post-entry:hover {
+  background: rgba(200, 150, 62, 0.05);
+}
+
+.entry-header {
+  margin-bottom: 0.4em;
+}
+
+.entry-header h2,
+.entry-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--charcoal);
+  line-height: 1.3;
+  margin: 0 0 0.3em 0;
+}
+
+.dark .entry-header h2,
+.dark .entry-title {
+  color: #f0ece4;
+}
+
+.entry-content p {
+  font-size: 0.95rem;
+  color: var(--mid-grey);
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
+
+.entry-footer {
+  margin-top: 0.7em;
+  font-size: 0.8rem;
+  color: var(--mid-grey);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.entry-footer span {
+  color: var(--mid-grey);
+}
+
+
+/* ================================================================
+   ARTICLE PAGE — HEADER
+   ================================================================ */
+
+.post-header {
+  border-bottom: 2px solid var(--charcoal);
+  padding-bottom: 1.5em;
+  margin-bottom: 2.5em;
+}
+
+.dark .post-header {
+  border-bottom-color: #444;
+}
+
+.post-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--charcoal);
+}
+
+.dark .post-title {
+  color: #f0ece4;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: var(--mid-grey);
+  margin-top: 0.8em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post-meta a {
+  color: var(--mid-grey);
+}
+
+.post-meta a:hover {
+  color: var(--amber);
+}
+
+
+/* ================================================================
+   ARTICLE BODY
+   ================================================================ */
 
 .post-content,
 .post-content p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.08rem;
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--soft-black);
 }
 
-/* ── Post title and headings ── */
-.post-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: -0.01em;
+.dark .post-content,
+.dark .post-content p {
+  color: #c8c4be;
 }
 
 .post-content h2 {
@@ -47,7 +269,15 @@ body {
   border: none;
 }
 
-/* ── Pull quotes ── */
+.dark .post-content h2 {
+  color: #f0ece4;
+}
+
+
+/* ================================================================
+   PULL QUOTES
+   ================================================================ */
+
 .pullquote {
   border-left: 4px solid var(--amber);
   background: var(--light-bg);
@@ -58,6 +288,11 @@ body {
   line-height: 1.65;
   color: var(--charcoal);
   position: relative;
+}
+
+.dark .pullquote {
+  background: rgba(200, 150, 62, 0.08);
+  color: #e8e0d4;
 }
 
 .pullquote::before {
@@ -82,22 +317,21 @@ body {
   font-style: normal;
 }
 
-/* ── Ornament separator ── */
-.ornament {
-  text-align: center;
-  color: var(--rule-grey);
-  margin: 1.8em 0;
-  font-size: 1em;
-  letter-spacing: 0.4em;
-}
 
-/* ── Stat callout ── */
+/* ================================================================
+   STAT CALLOUT
+   ================================================================ */
+
 .stat-callout {
   background: var(--charcoal);
   color: var(--ivory);
   padding: 2.4em 2em;
   text-align: center;
   margin: 2.2em 0;
+}
+
+.dark .stat-callout {
+  background: #111;
 }
 
 .stat-number {
@@ -126,12 +360,21 @@ body {
   color: #aaaaaa;
 }
 
-/* ── Bar chart ── */
+
+/* ================================================================
+   BAR CHART
+   ================================================================ */
+
 .chart-box {
   border: 1px solid #e0ddd8;
   background: white;
   padding: 1.6em 1.8em;
   margin: 2em 0;
+}
+
+.dark .chart-box {
+  background: #1e1e1e;
+  border-color: #333;
 }
 
 .chart-title {
@@ -188,7 +431,11 @@ body {
   margin-top: 1em;
 }
 
-/* ── Endnote ── */
+
+/* ================================================================
+   ENDNOTE
+   ================================================================ */
+
 .endnote {
   text-align: center;
   font-style: italic;
@@ -201,11 +448,23 @@ body {
   line-height: 1.6;
 }
 
-/* ── Further reading section ── */
+.dark .endnote {
+  border-color: #3a3a3a;
+}
+
+
+/* ================================================================
+   FURTHER READING
+   ================================================================ */
+
 .further-reading {
   margin-top: 3em;
   padding-top: 2em;
   border-top: 2px solid var(--charcoal);
+}
+
+.dark .further-reading {
+  border-top-color: #555;
 }
 
 .further-reading h2 {
@@ -228,36 +487,97 @@ body {
   line-height: 1.5;
 }
 
-/* ── Nav and header accent ── */
-.logo a,
-.logo span {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: 0.02em;
-}
 
-a {
-  color: var(--amber);
-}
+/* ================================================================
+   TAG PILLS
+   ================================================================ */
 
-a:hover {
-  color: var(--amber-light);
-}
-
-/* ── Homepage intro block ── */
-.home-info-block {
-  border-left: 4px solid var(--amber);
-  padding-left: 1.2em;
-}
-
-/* ── Tag pills ── */
 .post-tags a {
   background: var(--light-bg);
   color: var(--charcoal);
   border: 1px solid var(--rule-grey);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
+
+.dark .post-tags a {
+  background: rgba(200, 150, 62, 0.08);
+  color: #d4d0cb;
+  border-color: #3a3a3a;
 }
 
 .post-tags a:hover {
   background: var(--amber);
   color: var(--ivory);
   border-color: var(--amber);
+}
+
+
+/* ================================================================
+   PAGINATION & PREV/NEXT
+   ================================================================ */
+
+.pagination .page-link {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid var(--rule-grey);
+}
+
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background: var(--amber);
+  border-color: var(--amber);
+  color: var(--ivory);
+}
+
+.paginav {
+  border-top: 1px solid var(--rule-grey);
+}
+
+.dark .paginav {
+  border-top-color: #3a3a3a;
+}
+
+.paginav a:hover .paginav-title {
+  color: var(--amber);
+}
+
+
+/* ================================================================
+   SEARCH PAGE
+   ================================================================ */
+
+#searchbox input {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 2px solid var(--amber);
+  border-radius: 0;
+}
+
+#searchResults .post-entry {
+  border-bottom: 1px solid var(--rule-grey);
+}
+
+
+/* ================================================================
+   FOOTER
+   ================================================================ */
+
+footer.footer {
+  border-top: 1px solid var(--rule-grey);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.82rem;
+  color: var(--mid-grey);
+}
+
+.dark footer.footer {
+  border-top-color: #2a2a2a;
+}
+
+
+/* ================================================================
+   RESPONSIVE
+   ================================================================ */
+
+@media (max-width: 600px) {
+  .post-title { font-size: 1.8rem; }
+  .homeInfoContent .title { font-size: 1.5rem; }
 }
