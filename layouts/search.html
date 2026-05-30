@@ -1,0 +1,38 @@
+{{- define "main" }}
+
+{{/* ═══════════ SEARCH HEADER ═══════════ */}}
+<section class="sp-header">
+  <div class="sp-header-inner">
+    <p class="sp-label">Safety Mic</p>
+    <h1 class="sp-title">Find an Article</h1>
+    <p class="sp-desc">Search across all articles by keyword, topic, regulation, or concept.</p>
+  </div>
+</section>
+
+{{/* ═══════════ SEARCH BODY ═══════════ */}}
+<section class="sp-body">
+  <div class="sp-body-inner">
+
+    <div class="sp-card" id="searchbox">
+      <div class="sp-input-wrap">
+        <svg class="sp-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="searchInput" disabled
+          placeholder="{{ .Params.placeholder | default "Type a keyword, e.g. confined space, permit to work…" }}"
+          aria-label="search articles"
+          type="search"
+          autocomplete="off"
+          maxlength="64">
+        <kbd class="sp-kbd">↵</kbd>
+      </div>
+      <ul id="searchResults" aria-label="search results"></ul>
+    </div>
+
+    <p class="sp-hint">Try: <span>NESREA</span>, <span>toolbox talk</span>, <span>mental health</span>, <span>EIA</span></p>
+
+  </div>
+</section>
+
+{{- end }}

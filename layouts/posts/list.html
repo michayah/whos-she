@@ -1,0 +1,68 @@
+{{- define "main" }}
+
+{{- $allPages := .Pages.ByDate.Reverse }}
+{{- $count    := len $allPages }}
+{{- $paginator := .Paginate $allPages }}
+
+{{/* ═══════════ PAGE HEADER ═══════════ */}}
+<section class="al-header">
+  <div class="al-header-inner">
+    <p class="al-label">The Archive</p>
+    <h1 class="al-title">Articles</h1>
+    <p class="al-count">
+      {{ $count }} {{ if eq $count 1 }}article{{ else }}articles{{ end }}
+      &ensp;&middot;&ensp;HSE writing from inside Nigeria's workplaces
+    </p>
+  </div>
+</section>
+
+{{/* ═══════════ ARTICLE LIST ═══════════ */}}
+<section class="al-body">
+  <div class="al-body-inner">
+    {{- $offset := mul (sub $paginator.PageNumber 1) $paginator.PagerSize }}
+    {{- range $i, $page := $paginator.Pages }}
+    <a href="{{ $page.Permalink }}" class="al-item">
+
+      <div class="al-num">{{ printf "%02d" (add (add $offset $i) 1) }}</div>
+
+      <div class="al-item-body">
+        {{- with $page.Params.tags }}
+        <div class="al-tags">
+          {{- range first 2 . }}<span class="al-tag">{{ . }}</span>{{ end }}
+        </div>
+        {{- end }}
+        <h2 class="al-item-title">{{ $page.Title }}</h2>
+        <p class="al-item-desc">{{ $page.Description }}</p>
+        <div class="al-item-meta">
+          {{ $page.Date.Format "2 January 2006" }}&ensp;&middot;&ensp;{{ $page.ReadingTime }} min read
+        </div>
+      </div>
+
+      {{- with $page.Params.cover }}
+      <div class="al-thumb">
+        <img src="{{ .image }}" alt="{{ .alt | default "" }}" loading="lazy">
+      </div>
+      {{- end }}
+
+      <div class="al-arrow">&rarr;</div>
+
+    </a>
+    {{- end }}
+  </div>
+</section>
+
+{{/* ═══════════ PAGINATION ═══════════ */}}
+{{- if gt $paginator.TotalPages 1 }}
+<div class="al-pagination">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">«&nbsp;Newer</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">Older&nbsp;»</a>
+    {{- end }}
+  </nav>
+</div>
+{{- end }}
+
+{{- end }}
