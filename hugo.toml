@@ -8,6 +8,9 @@ outputs.home = ["HTML", "RSS", "JSON"]
 [markup.goldmark.renderer]
   unsafe = true
 
+[services.googleAnalytics]
+  ID = "G-127E3XT44D"
+
 [params]
   description = "HSE thinking for the Nigerian workplace."
   ShowReadingTime = true
