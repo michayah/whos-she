@@ -20,7 +20,6 @@ What changed was not a single moment but a slow accumulation of being in rooms, 
 
 That is what this article is about. The letters we are leaving on the floor, and the version of ourselves we are leaving with them.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## Meet SHE
 
@@ -34,7 +33,6 @@ When SHE walks into a room fully dressed, the room shifts. Procurement listens. 
 
 But she so rarely walks into the room fully dressed. We keep meeting her in fragments: a hard hat here, a toolbox talk there, a mental health flyer in February, an environmental statement nobody reads in the annual report. We have spent so long introducing her by her first initial that most of the industry has forgotten the rest of her name, and that is not her failure. That is ours.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Half-Dressed Officer
 
@@ -72,7 +70,6 @@ Put occupational noise-induced hearing loss in front of him, the actual audiomet
 
 He is not a bad officer. He is simply working with one letter of a three-letter mandate, and the letters he is missing are the ones the profession increasingly cannot function without. He has built an entire career on one third of his job description and convinced himself, with the quiet help of an industry that asked no more of him, that this is enough. The paperwork agrees with him, the KPIs agree with him, and the incident statistics, shaped by whatever pressures shaped them, agree with him. The profession does not agree with him. The profession is waiting for the rest of him to show up.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Content-Day Officer
 
@@ -92,7 +89,6 @@ Health, for too many HSE officers, is a content calendar rather than a competenc
   <div class="stat-source">Source: International Labour Organization</div>
 </div>
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Missing E
 
@@ -106,7 +102,6 @@ The Climate Change Act of 2021 created the National Council on Climate Change an
 
 And then there is the wider universe that is now coming for us all whether we are ready or not: the IFRS S2 climate-related disclosures issued by the International Sustainability Standards Board, the Global Reporting Initiative standards, and the increasing pressure from international financiers and offtakers who will not put their money or their reputations next to companies that cannot account for their environmental footprint. Sustainability is no longer a public relations function. It is a financing function, a market access function, and increasingly a survival function, which means the HSE officer who cannot speak to any of this is not under-qualified in the ordinary sense. They are unprepared for the profession that is actively forming around them.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Integrated SHE
 
@@ -126,7 +121,6 @@ The first steps are more concrete than they sound. Find your organisation's EIA 
 
 That is how SHE gets dressed: one letter at a time, one decision at a time, one free document at a time, until one day you walk into a room and realise you are no longer half of yourself.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Profession She Was Always Meant to Be
 
@@ -142,7 +136,6 @@ So let this be the line you carry from here: SHE has a full name. Use all of it,
 
 The profession deserves better than the one letter we keep performing. So do you.
 
-<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 <div class="endnote">If this piece found you somewhere in it, that is not an accident. Share it with the officer in your network who is still working with one letter, even if that officer is the one you see in the mirror. SHE has been waiting on you.</div>
 
