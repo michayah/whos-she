@@ -12,7 +12,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
   ID = "G-127E3XT44D"
 
 [services.disqus]
-  shortName = ""   # paste your Disqus shortname here after setup
+  shortName = "safetymic"   # paste your Disqus shortname here after setup
 
 [params]
   description = "HSE thinking for the Nigerian workplace."
