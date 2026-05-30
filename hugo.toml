@@ -11,16 +11,21 @@ outputs.home = ["HTML", "RSS", "JSON"]
 [services.googleAnalytics]
   ID = "G-127E3XT44D"
 
+[services.disqus]
+  shortName = ""   # paste your Disqus shortname here after setup
+
 [params]
   description = "HSE thinking for the Nigerian workplace."
   ShowReadingTime = true
   ShowToc = true
   ShowPostNavLinks = true
   ShowShareButtons = false
+  comments = true
   logo = "/safety-mic-logo.png"
   label.text = "Safety Mic"
   label.icon = "/safety-mic-logo.png"
   label.iconHeight = 48
+  substackUrl = "https://substack.com/@michayahiniovosa"
 
 [params.homeInfoParams]
   Title = "Safety Mic"
@@ -51,3 +56,7 @@ outputs.home = ["HTML", "RSS", "JSON"]
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    name = "Subscribe"
+    url = "https://substack.com/@michayahiniovosa"
+    weight = 4

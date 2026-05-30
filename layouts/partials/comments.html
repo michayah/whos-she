@@ -1,0 +1,27 @@
+{{- $shortname := site.Config.Services.Disqus.Shortname }}
+{{- if $shortname }}
+<section class="cmt-section">
+  <div class="cmt-inner">
+    <p class="cmt-label">Discussion</p>
+    <h2 class="cmt-title">Join the Conversation</h2>
+    <p class="cmt-desc">Sign in with Google, Facebook, or email to leave a comment.</p>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url  = "{{ .Permalink }}";
+        this.page.identifier = "{{ .RelPermalink }}";
+      };
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ $shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view
+      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+  </div>
+</section>
+{{- end }}
