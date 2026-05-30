@@ -28,7 +28,11 @@ outputs.home = ["HTML", "RSS", "JSON"]
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://linkedin.com/in/michayah-iniovosa"
+  url = "https://linkedin.com/in/michayah"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/michayah"
 
 [[params.socialIcons]]
   name = "rss"
