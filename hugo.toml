@@ -17,6 +17,10 @@ outputs.home = ["HTML", "RSS", "JSON"]
   ShowToc = true
   ShowPostNavLinks = true
   ShowShareButtons = false
+  logo = "/logo.png"
+  label.text = "Safety Mic"
+  label.icon = "/logo.png"
+  label.iconHeight = 40
 
 [params.homeInfoParams]
   Title = "Safety Mic"

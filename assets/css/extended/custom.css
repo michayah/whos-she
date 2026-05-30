@@ -67,6 +67,9 @@ header.header {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--charcoal);
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
 }
 
 .dark .logo a,
@@ -76,6 +79,12 @@ header.header {
 
 .logo a:hover {
   color: var(--amber);
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .menu a {
