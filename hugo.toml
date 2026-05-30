@@ -35,8 +35,8 @@ outputs.home = ["HTML", "RSS", "JSON"]
   url = "https://github.com/michayah"
 
 [[params.socialIcons]]
-  name = "rss"
-  url = "/index.xml"
+  name = "substack"
+  url = "https://substack.com/@michayah"
 
 [menu]
   [[menu.main]]
