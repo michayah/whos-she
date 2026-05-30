@@ -14,14 +14,14 @@
   --charcoal:     #1A1A1A;
   --soft-black:   #222222;
   --mid-grey:     #555555;
-  --ivory:        #F8F5FF;
-  --light-bg:     #F0EBF8;
-  --rule-grey:    #D0C8E0;
-  --track-bg:     #E4DDF0;
+  --ivory:        #E8E1F5;   /* card / surface level */
+  --light-bg:     #DDD5EF;   /* hover / accent bg */
+  --rule-grey:    #C8BEE0;
+  --track-bg:     #DDD6EE;
 
   /* PaperMod variable overrides */
   --primary: var(--purple);
-  --theme:   var(--ivory);
+  --theme:   #F3EEF9;        /* page background — toned lavender */
 }
 
 /* Dark mode token overrides */
