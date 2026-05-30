@@ -4,6 +4,10 @@ date: 2026-05-30
 description: "The profession deserves better than the one letter we keep performing."
 tags: ["HSE culture", "Nigeria", "occupational health", "environment", "professional development"]
 author: "Michayah Iniovosa"
+cover:
+  image: "/covers/whos-she.png"
+  alt: "Who's SHE? — A cinematic cover showing a silhouette in a hard hat with the word SHE in bold magenta"
+  relative: false
 ---
 
 ## Introduction: A Confession Before We Begin
