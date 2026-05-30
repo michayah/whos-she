@@ -1,6 +1,6 @@
 ---
-title: "About Safety Mic 🎙️"
-ShowToc: false
+title: "About Safety Mic"
+layout: "about"
 ---
 
 <div class="pub-description">
@@ -22,6 +22,10 @@ ShowToc: false
 <div class="author-block">
   <div class="author-photo-wrap">
     <img src="/author.jpg" alt="Michayah Iniovosa" class="author-photo">
+    <div class="author-name-plate">
+      <strong>Michayah Iniovosa</strong>
+      <span>HSE Professional · Nigeria</span>
+    </div>
   </div>
   <div class="author-bio">
     <p>My name is Michayah, and I am an HSE professional working in Nigeria. I write from inside the industry, which means I am not observing these problems from a distance. I have felt the institutional pressure to stay quiet. I have watched safety culture treated as a box to tick rather than a value to hold. I have also seen what it looks like when someone in this profession decides to mean it, and what that costs them, and what it protects.</p>

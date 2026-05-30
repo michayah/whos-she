@@ -560,12 +560,81 @@ header.header {
    ABOUT PAGE
    ================================================================ */
 
+/* Full-width layout override */
+.main:has(.ab-header) {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Header panel — matches al-header / sp-header aesthetic */
+.ab-header {
+  background: linear-gradient(160deg, #0D0B12 0%, #1A0D28 60%, #1D1030 100%);
+  border-bottom: 3px solid var(--purple);
+  padding: 4.5em 2em 3.5em;
+}
+
+.ab-header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ab-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.6em;
+  font-style: normal !important;
+}
+
+.ab-title {
+  font-family: Georgia, serif !important;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  color: #F0EBF8 !important;
+  margin: 0 0 0.3em !important;
+  border: none !important;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.ab-subtitle {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #7A6F90 !important;
+  margin: 0 !important;
+  line-height: 1.6;
+}
+
+/* Body wrapper */
+.ab-body {
+  padding: 0 2em 5em;
+}
+
+.ab-body-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 3.5em;
+}
+
+/* ── Publication section ── */
 .pub-description {
   position: relative;
-  padding: 1em 0 2em;
+  padding: 0 0 3em;
   border-bottom: 1px solid var(--rule-grey);
-  margin-bottom: 2em;
+  margin-bottom: 0;
   overflow: hidden;
+}
+
+.pub-description::before {
+  content: "The Publication";
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.8em;
+  font-style: normal;
 }
 
 .pub-watermark {
@@ -573,7 +642,7 @@ header.header {
   width: 400px;
   height: 400px;
   object-fit: contain;
-  opacity: 0.07;
+  opacity: 0.05;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -584,24 +653,55 @@ header.header {
 .pub-description p {
   position: relative;
   z-index: 1;
+  font-size: 1.05rem !important;
+  line-height: 1.85 !important;
+  color: var(--soft-black) !important;
   text-align: justify;
   hyphens: auto;
+  margin-bottom: 1.15em !important;
 }
 
-.author-bio p {
-  text-align: justify;
-  hyphens: auto;
+/* Emphasise the mission statement line */
+.pub-description p:nth-child(3) {
+  font-weight: bold;
+  font-size: 1.1rem !important;
+  color: var(--charcoal) !important;
+  font-style: italic;
+  border-left: 3px solid var(--magenta);
+  padding-left: 1em;
+}
+
+/* Horizontal rule between sections */
+.ab-body-inner hr {
+  border: none;
+  border-top: 1px solid var(--rule-grey);
+  margin: 3.5em 0;
+}
+
+/* ── Author section ── */
+.ab-body-inner h2 {
+  font-size: 0.7rem !important;
+  letter-spacing: 0.22em !important;
+  text-transform: uppercase !important;
+  color: var(--gold) !important;
+  margin: 0 0 2em !important;
+  font-style: normal !important;
+  border: none !important;
+  font-weight: normal !important;
 }
 
 .author-block {
-  display: flex;
-  gap: 2.2em;
-  align-items: flex-start;
-  margin-top: 1.8em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.8em;
+  align-items: start;
 }
 
 .author-photo-wrap {
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
 .author-photo {
@@ -614,20 +714,68 @@ header.header {
   display: block;
 }
 
-.author-bio p {
-  margin-bottom: 1em;
+.author-name-plate {
+  text-align: center;
 }
 
-@media (max-width: 600px) {
+.author-name-plate strong {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 0.9rem;
+  color: var(--charcoal) !important;
+  letter-spacing: 0.03em;
+}
+
+.author-name-plate span {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--mid-grey);
+}
+
+.author-bio p {
+  font-size: 1.02rem !important;
+  line-height: 1.85 !important;
+  color: var(--soft-black) !important;
+  text-align: justify;
+  hyphens: auto;
+  margin-bottom: 1.1em !important;
+}
+
+/* Closing line */
+.author-bio p:last-child {
+  font-style: italic;
+  color: var(--charcoal) !important;
+  font-weight: normal;
+}
+
+.author-bio p:last-child strong {
+  color: var(--purple) !important;
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .ab-title { font-size: 2.2rem !important; }
+
   .author-block {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+
+  .author-photo-wrap {
+    flex-direction: row;
+    gap: 1.5em;
     align-items: center;
-    text-align: center;
   }
+
   .author-photo {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
   }
+
+  .author-name-plate { text-align: left; }
+
+  .pub-description p { text-align: left; }
+  .author-bio p { text-align: left; }
 }
 
 

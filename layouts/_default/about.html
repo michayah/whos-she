@@ -1,0 +1,19 @@
+{{- define "main" }}
+
+{{/* ═══════════ ABOUT HEADER ═══════════ */}}
+<section class="ab-header">
+  <div class="ab-header-inner">
+    <p class="ab-label">Safety Mic</p>
+    <h1 class="ab-title">About</h1>
+    <p class="ab-subtitle">The publication and the person behind it.</p>
+  </div>
+</section>
+
+{{/* ═══════════ CONTENT ═══════════ */}}
+<div class="ab-body">
+  <div class="ab-body-inner">
+    {{ .Content }}
+  </div>
+</div>
+
+{{- end }}
