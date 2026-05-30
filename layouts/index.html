@@ -1,0 +1,85 @@
+{{- define "main" }}
+
+{{- $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+{{- $featured := index $posts 0 }}
+{{- $rest := after 1 $posts }}
+
+{{/* ═══════════ HERO ═══════════ */}}
+<section class="hp-hero">
+  <div class="hp-hero-inner">
+    <img src="/safety-mic-logo.png" alt="Safety Mic" class="hp-hero-logo">
+    <h1 class="hp-hero-title">Safety Mic</h1>
+    <p class="hp-hero-tagline">HSE thinking for the Nigerian workplace.<br>Real standards, real culture, real stakes.</p>
+    <div class="hp-hero-social">
+      {{- partial "social_icons.html" (dict "align" "center" "icons" site.Params.socialIcons) }}
+    </div>
+  </div>
+</section>
+
+{{/* ═══════════ FEATURED ═══════════ */}}
+{{- with $featured }}
+<section class="hp-featured">
+  <div class="hp-section-inner">
+    <p class="hp-label">Latest Article</p>
+    <a href="{{ .Permalink }}" class="hp-featured-card">
+      {{- with .Params.cover }}
+      <div class="hp-featured-img">
+        <img src="{{ .image }}" alt="{{ .alt | default "" }}">
+      </div>
+      {{- end }}
+      <div class="hp-featured-body">
+        {{- with .Params.tags }}
+        <div class="hp-tags">
+          {{- range first 2 . }}<span class="hp-tag">{{ . }}</span>{{ end }}
+        </div>
+        {{- end }}
+        <h2 class="hp-featured-title">{{ .Title }}</h2>
+        <p class="hp-featured-desc">{{ .Description }}</p>
+        <div class="hp-featured-meta">
+          {{- .Date.Format "2 January 2006" }} &middot; {{ .ReadingTime }} min read
+        </div>
+        <span class="hp-read-more">Read article &rarr;</span>
+      </div>
+    </a>
+  </div>
+</section>
+{{- end }}
+
+{{/* ═══════════ MORE ARTICLES ═══════════ */}}
+{{- with $rest }}
+<section class="hp-articles">
+  <div class="hp-section-inner">
+    <p class="hp-label">More Articles</p>
+    <div class="hp-grid">
+      {{- range . }}
+      <a href="{{ .Permalink }}" class="hp-card">
+        {{- with .Params.cover }}
+        <div class="hp-card-img">
+          <img src="{{ .image }}" alt="">
+        </div>
+        {{- end }}
+        <div class="hp-card-body">
+          <h3 class="hp-card-title">{{ .Title }}</h3>
+          <p class="hp-card-desc">{{ .Description }}</p>
+          <div class="hp-card-meta">{{ .Date.Format "2 Jan 2006" }} &middot; {{ .ReadingTime }} min</div>
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+
+{{/* ═══════════ ABOUT STRIP ═══════════ */}}
+<section class="hp-about">
+  <div class="hp-about-inner">
+    <img src="/author.jpg" alt="Michayah Iniovosa" class="hp-about-photo">
+    <div class="hp-about-text">
+      <p class="hp-about-name">Michayah Iniovosa</p>
+      <p class="hp-about-bio">HSE professional writing from inside the industry — about the pressures, the failures, and what it would actually take to fix it.</p>
+      <a href="/about/" class="hp-about-link">About Safety Mic &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{{- end }}
