@@ -1,0 +1,263 @@
+/* ── Colour palette ── */
+:root {
+  --charcoal: #1a1a1a;
+  --soft-black: #222222;
+  --mid-grey: #555555;
+  --amber: #C8963E;
+  --amber-light: #E8B96A;
+  --ivory: #F8F4ED;
+  --light-bg: #F5F0E8;
+  --rule-grey: #cccccc;
+  --track-bg: #e8e8e8;
+}
+
+/* ── Override PaperMod accent colour ── */
+:root {
+  --primary: var(--amber);
+  --theme: #faf8f4;
+}
+
+/* ── Site-wide typography ── */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.post-content,
+.post-content p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: var(--soft-black);
+}
+
+/* ── Post title and headings ── */
+.post-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: -0.01em;
+}
+
+.post-content h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--charcoal);
+  margin-top: 2.8em;
+  margin-bottom: 0.9em;
+  letter-spacing: 0.01em;
+  border: none;
+}
+
+/* ── Pull quotes ── */
+.pullquote {
+  border-left: 4px solid var(--amber);
+  background: var(--light-bg);
+  padding: 1.3em 1.8em 1.3em 1.6em;
+  margin: 2em 0;
+  font-style: italic;
+  font-size: 1.13em;
+  line-height: 1.65;
+  color: var(--charcoal);
+  position: relative;
+}
+
+.pullquote::before {
+  content: '\201C';
+  font-size: 2.2em;
+  color: var(--amber);
+  line-height: 0;
+  position: relative;
+  top: 0.35em;
+  margin-right: 0.05em;
+  font-style: normal;
+}
+
+.pullquote::after {
+  content: '\201D';
+  font-size: 2.2em;
+  color: var(--amber);
+  line-height: 0;
+  position: relative;
+  top: 0.35em;
+  margin-left: 0.05em;
+  font-style: normal;
+}
+
+/* ── Ornament separator ── */
+.ornament {
+  text-align: center;
+  color: var(--rule-grey);
+  margin: 1.8em 0;
+  font-size: 1em;
+  letter-spacing: 0.4em;
+}
+
+/* ── Stat callout ── */
+.stat-callout {
+  background: var(--charcoal);
+  color: var(--ivory);
+  padding: 2.4em 2em;
+  text-align: center;
+  margin: 2.2em 0;
+}
+
+.stat-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--amber);
+  line-height: 1.1;
+  margin-bottom: 0.3em;
+  letter-spacing: -0.02em;
+}
+
+.stat-description {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: var(--ivory);
+  margin-bottom: 0.7em;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stat-source {
+  font-size: 0.78em;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+/* ── Bar chart ── */
+.chart-box {
+  border: 1px solid #e0ddd8;
+  background: white;
+  padding: 1.6em 1.8em;
+  margin: 2em 0;
+}
+
+.chart-title {
+  font-size: 0.82em;
+  font-style: italic;
+  color: var(--mid-grey);
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+
+.bar-group {
+  margin-bottom: 1.1em;
+}
+
+.bar-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.bar-name {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: var(--charcoal);
+}
+
+.bar-pct {
+  font-size: 0.85em;
+  color: var(--mid-grey);
+}
+
+.bar-track {
+  background: var(--track-bg);
+  height: 26px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.fill-s { background: var(--amber); width: 72%; }
+.fill-h { background: #8a8a8a;      width: 20%; }
+.fill-e { background: #c0c0c0;      width: 8%;  }
+
+.chart-note {
+  font-size: 0.76em;
+  font-style: italic;
+  color: #999;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* ── Endnote ── */
+.endnote {
+  text-align: center;
+  font-style: italic;
+  color: var(--mid-grey);
+  font-size: 0.95em;
+  border-top: 1px solid var(--rule-grey);
+  border-bottom: 1px solid var(--rule-grey);
+  padding: 1.2em 2.5em;
+  margin: 2.4em 0;
+  line-height: 1.6;
+}
+
+/* ── Further reading section ── */
+.further-reading {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 2px solid var(--charcoal);
+}
+
+.further-reading h2 {
+  margin-top: 0;
+}
+
+.fr-category {
+  font-weight: bold;
+  font-size: 0.95em;
+  color: var(--charcoal);
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.fr-item {
+  font-size: 0.88em;
+  color: var(--soft-black);
+  margin-bottom: 0.45em;
+  padding-left: 1em;
+  line-height: 1.5;
+}
+
+/* ── Nav and header accent ── */
+.logo a,
+.logo span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: var(--amber);
+}
+
+a:hover {
+  color: var(--amber-light);
+}
+
+/* ── Homepage intro block ── */
+.home-info-block {
+  border-left: 4px solid var(--amber);
+  padding-left: 1.2em;
+}
+
+/* ── Tag pills ── */
+.post-tags a {
+  background: var(--light-bg);
+  color: var(--charcoal);
+  border: 1px solid var(--rule-grey);
+}
+
+.post-tags a:hover {
+  background: var(--amber);
+  color: var(--ivory);
+  border-color: var(--amber);
+}

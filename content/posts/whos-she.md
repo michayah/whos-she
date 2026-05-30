@@ -16,11 +16,11 @@ I was the S officer. I performed the S officer's role with conviction, and I had
 
 What changed was not a single moment but a slow accumulation of being in rooms, especially climate tech rooms, where the full profession was assumed rather than performed, where the people doing the work knew their environmental instruments the way I knew my hierarchy of controls, and where sustainability was not a hashtag at the end of a LinkedIn post but the actual substance of the work. I sat in those rooms long enough to realise that I was not under-qualified by design. I was under-qualified by choice.
 
-> I was not under-qualified by design. I was under-qualified by choice.
+<div class="pullquote">I was not under-qualified by design. I was under-qualified by choice.</div>
 
 That is what this article is about. The letters we are leaving on the floor, and the version of ourselves we are leaving with them.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## Meet SHE
 
@@ -30,11 +30,11 @@ SHE is Safety, Health, Environment: three letters that, when held together in on
 
 When SHE walks into a room fully dressed, the room shifts. Procurement listens. Operations slows down. Finance, however reluctantly, opens a line item, and the CEO who has been treating safety as an irritant remembers, briefly, that lives are on the line and so is the company's social licence.
 
-> SHE is, when allowed to be all of herself, undismissable.
+<div class="pullquote">SHE is, when allowed to be all of herself, undismissable.</div>
 
 But she so rarely walks into the room fully dressed. We keep meeting her in fragments: a hard hat here, a toolbox talk there, a mental health flyer in February, an environmental statement nobody reads in the annual report. We have spent so long introducing her by her first initial that most of the industry has forgotten the rest of her name, and that is not her failure. That is ours.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Half-Dressed Officer
 
@@ -42,27 +42,43 @@ You know him. I have been him.
 
 He is fluent in Safety the way some men are fluent in football statistics, able to recite the hierarchy of controls in his sleep, confident in his PPE matrix, running his toolbox talks with the cadence of a Sunday preacher whose sign-in sheets are immaculate and whose near-miss board is updated weekly, sometimes daily when audit season approaches. If you ask him about lockout-tagout, scaffolding inspections, or confined space entry, he will give you a small lecture you did not ask for and walk away pleased with himself.
 
-**Illustrative distribution of officer focus in practice:**
-
-| Discipline | Typical Focus |
-|---|---|
-| Safety (S) | ~72% |
-| Health (H) | ~20% |
-| Environment (E) | ~8% |
-
-*Illustrative only — not based on empirical measurement. Intended to represent the imbalance described in this article.*
+<div class="chart-box">
+  <div class="chart-title">Illustrative: typical distribution of officer focus in practice</div>
+  <div class="bar-group">
+    <div class="bar-meta">
+      <span class="bar-name">Safety (S)</span>
+      <span class="bar-pct">~72%</span>
+    </div>
+    <div class="bar-track"><div class="bar-fill fill-s"></div></div>
+  </div>
+  <div class="bar-group">
+    <div class="bar-meta">
+      <span class="bar-name">Health (H)</span>
+      <span class="bar-pct">~20%</span>
+    </div>
+    <div class="bar-track"><div class="bar-fill fill-h"></div></div>
+  </div>
+  <div class="bar-group">
+    <div class="bar-meta">
+      <span class="bar-name">Environment (E)</span>
+      <span class="bar-pct">~8%</span>
+    </div>
+    <div class="bar-track"><div class="bar-fill fill-e"></div></div>
+  </div>
+  <div class="chart-note">Illustrative only &mdash; not based on empirical measurement. Intended to represent the imbalance described in this article.</div>
+</div>
 
 Put occupational noise-induced hearing loss in front of him, the actual audiometric data from the workers on his site, and his fluency dries up. Ask him which NESREA regulations apply to the effluent his facility discharges into the nearest waterway, and he will give you a look that politely suggests this is someone else's department. Ask him what his company's Scope 1 emissions are doing, and whether the operations he is overseeing are contributing to a climate liability that will land on his employer's books within five years, and watch him pretend his radio just crackled.
 
 He is not a bad officer. He is simply working with one letter of a three-letter mandate, and the letters he is missing are the ones the profession increasingly cannot function without. He has built an entire career on one third of his job description and convinced himself, with the quiet help of an industry that asked no more of him, that this is enough. The paperwork agrees with him, the KPIs agree with him, and the incident statistics, shaped by whatever pressures shaped them, agree with him. The profession does not agree with him. The profession is waiting for the rest of him to show up.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Content-Day Officer
 
 If the half-dressed officer ignores H, the content-day officer does something almost more insulting: he performs it on schedule.
 
-> Health is a costume we put on for photographs and take off before lunch.
+<div class="pullquote">Health is a costume we put on for photographs and take off before lunch.</div>
 
 October arrives, and so does the World Mental Health Day post. A nice graphic, usually borrowed from somewhere, with the company logo carefully placed in the corner and a caption about how mental health matters, rounded off with a few hashtags. Somewhere in a meeting room, a manager nods and marks it done. By the second week of October, the post is buried under quarterly results and project updates, and the workers who actually carry the mental load of the operation — who have not slept a full night in three weeks and who are watching colleagues burn out around them — have heard nothing from anyone in HSE about what is actually available to them.
 
@@ -70,9 +86,13 @@ May arrives, and so does the World No Tobacco Day toolbox talk: a printout, mayb
 
 Health, for too many HSE officers, is a content calendar rather than a competency: a series of awareness days that allow us to claim we addressed the H without ever building the systems that would actually address it — including occupational health surveillance, mental health support that is more than a phone number on a poster, ergonomic assessments, heat stress protocols on sites where ambient temperatures regularly exceed forty degrees, and long-term exposure tracking for the kinds of slow injuries that do not show up until a worker is sixty and wondering why his hands no longer work. That is what H actually is: not a flyer, not a Wednesday in October, but a discipline, and most of us, if we are honest, have not done the reading.
 
-**2.78 million** estimated deaths from occupational disease annually — the overwhelming majority silent, cumulative, and preventable with functional health surveillance. *(Source: International Labour Organization)*
+<div class="stat-callout">
+  <span class="stat-number">2.78 million</span>
+  <div class="stat-description">estimated deaths from occupational disease annually, the overwhelming majority silent, cumulative, and preventable with functional health surveillance</div>
+  <div class="stat-source">Source: International Labour Organization</div>
+</div>
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Missing E
 
@@ -86,7 +106,7 @@ The Climate Change Act of 2021 created the National Council on Climate Change an
 
 And then there is the wider universe that is now coming for us all whether we are ready or not: the IFRS S2 climate-related disclosures issued by the International Sustainability Standards Board, the Global Reporting Initiative standards, and the increasing pressure from international financiers and offtakers who will not put their money or their reputations next to companies that cannot account for their environmental footprint. Sustainability is no longer a public relations function. It is a financing function, a market access function, and increasingly a survival function, which means the HSE officer who cannot speak to any of this is not under-qualified in the ordinary sense. They are unprepared for the profession that is actively forming around them.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Integrated SHE
 
@@ -102,11 +122,11 @@ What I want you to know is that the gap closes. It begins with a decision, and t
 
 The first steps are more concrete than they sound. Find your organisation's EIA if one exists and read the sections that touch your operations. Pull up the NESREA regulations for your sector and identify which ones apply to your site. Complete one short course on occupational health surveillance, even a free one, because the vocabulary alone will change how you read your own reports. Ask, in the next meeting where it is relevant, what your organisation's position is on climate-related disclosure. None of these actions require a new qualification or a budget line. They require the decision to treat the full name of your profession as an instruction rather than a title.
 
-> The passion follows the knowledge. You do not need to feel passionate about environmental compliance to begin reading about it. You simply need to begin reading.
+<div class="pullquote">The passion follows the knowledge. You do not need to feel passionate about environmental compliance to begin reading about it. You simply need to begin reading.</div>
 
 That is how SHE gets dressed: one letter at a time, one decision at a time, one free document at a time, until one day you walk into a room and realise you are no longer half of yourself.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
 ## The Profession She Was Always Meant to Be
 
@@ -122,30 +142,30 @@ So let this be the line you carry from here: SHE has a full name. Use all of it,
 
 The profession deserves better than the one letter we keep performing. So do you.
 
----
+<div class="ornament">• &nbsp; • &nbsp; •</div>
 
-*If this piece found you somewhere in it, that is not an accident. Share it with the officer in your network who is still working with one letter, even if that officer is the one you see in the mirror. SHE has been waiting on you.*
+<div class="endnote">If this piece found you somewhere in it, that is not an accident. Share it with the officer in your network who is still working with one letter, even if that officer is the one you see in the mirror. SHE has been waiting on you.</div>
 
----
+<div class="further-reading">
+  <h2>Further Reading</h2>
 
-## Further Reading
+  <div class="fr-category">Nigerian legislation and regulation</div>
+  <div class="fr-item">Environmental Impact Assessment Act, Decree 86 of 1992, codified as CAP E12 LFN 2004. Nigerian Legal Information Institute: nigerialii.org.</div>
+  <div class="fr-item">NESREA (Establishment) Act 2007 and sector-specific regulations: nesrea.gov.ng.</div>
+  <div class="fr-item">Climate Change Act 2021: Federal Ministry of Environment website.</div>
+  <div class="fr-item">Petroleum Industry Act 2021: nuprc.gov.ng and nmdpra.gov.ng.</div>
 
-**Nigerian legislation and regulation**
-- Environmental Impact Assessment Act, Decree 86 of 1992, codified as CAP E12 LFN 2004. Nigerian Legal Information Institute: nigerialii.org.
-- NESREA (Establishment) Act 2007 and sector-specific regulations: nesrea.gov.ng.
-- Climate Change Act 2021: Federal Ministry of Environment website.
-- Petroleum Industry Act 2021: nuprc.gov.ng and nmdpra.gov.ng.
+  <div class="fr-category">International frameworks</div>
+  <div class="fr-item">IFRS S2 Climate-related Disclosures: ifrs.org/issued-standards/ifrs-sustainability-standards-navigator.</div>
+  <div class="fr-item">Global Reporting Initiative Standards: globalreporting.org.</div>
+  <div class="fr-item">ILO Guidelines on Occupational Safety and Health Management Systems (ILO-OSH 2001): ilo.org.</div>
 
-**International frameworks**
-- IFRS S2 Climate-related Disclosures: ifrs.org/issued-standards/ifrs-sustainability-standards-navigator.
-- Global Reporting Initiative Standards: globalreporting.org.
-- ILO Guidelines on Occupational Safety and Health Management Systems (ILO-OSH 2001): ilo.org.
+  <div class="fr-category">Occupational health and professional development</div>
+  <div class="fr-item">IOSH free resources and competency frameworks: iosh.com.</div>
+  <div class="fr-item">WHO Occupational Health resources: who.int/health-topics/occupational-health.</div>
+  <div class="fr-item">NEBOSH open learning resources: nebosh.org.uk.</div>
 
-**Occupational health and professional development**
-- IOSH free resources and competency frameworks: iosh.com.
-- WHO Occupational Health resources: who.int/health-topics/occupational-health.
-- NEBOSH open learning resources: nebosh.org.uk.
-
-**Sustainability and ESG**
-- UN Global Compact free ESG learning resources: unglobalcompact.org.
-- GRI Learning Center introductory courses: globalreporting.org/learning-center.
+  <div class="fr-category">Sustainability and ESG</div>
+  <div class="fr-item">UN Global Compact free ESG learning resources: unglobalcompact.org.</div>
+  <div class="fr-item">GRI Learning Center introductory courses: globalreporting.org/learning-center.</div>
+</div>

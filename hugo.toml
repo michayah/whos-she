@@ -5,6 +5,9 @@ theme = "PaperMod"
 
 outputs.home = ["HTML", "RSS", "JSON"]
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   description = "HSE thinking for the Nigerian workplace."
   ShowReadingTime = true
