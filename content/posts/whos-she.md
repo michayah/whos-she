@@ -18,7 +18,7 @@ For longer than I care to admit, I was performing only one letter of my professi
 
 I was the S officer. I performed the S officer's role with conviction, and I had quietly outsourced the H and the E to other people, or to no one at all.
 
-What changed was not a single moment but a slow accumulation of being in rooms, especially climate tech rooms, where the full profession was assumed rather than performed, where the people doing the work knew their environmental instruments the way I knew my hierarchy of controls, and where sustainability was not a hashtag at the end of a LinkedIn post but the actual substance of the work. I sat in those rooms long enough to realise that;
+What changed was not a single moment but a slow accumulation of being in rooms, especially climate tech rooms, where the full profession was assumed rather than performed, where the people doing the work knew their environmental instruments the way I knew my hierarchy of controls, and where sustainability was not a hashtag at the end of a LinkedIn post but the actual substance of the work. I sat in those rooms long enough to realise that I was not under-qualified by design. I was under-qualified by choice.
 
 <div class="pullquote">I was not under-qualified by design. I was under-qualified by choice.</div>
 
