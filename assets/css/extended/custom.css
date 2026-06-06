@@ -1984,6 +1984,30 @@ footer.footer {
   transform: translate(2px, -2px);
 }
 
+/* Featured/active download card */
+.rs-featured-card {
+  border-color: var(--gold) !important;
+  position: relative;
+}
+
+.rs-featured-card::after {
+  content: "★  Featured";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: var(--gold);
+  color: #000;
+  font-size: 0.62rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  padding: 0.2em 0.6em;
+  border-radius: 0 4px 0 3px;
+}
+
+.rs-featured-card:hover {
+  border-color: var(--gold-light) !important;
+}
+
 /* Responsive */
 @media (max-width: 720px) {
   .rs-title { font-size: 2.2rem !important; }
